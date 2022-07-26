@@ -1,70 +1,18 @@
-# Getting Started with Create React App
+web app link: wildfire-map-react.vercel.app
+github link : github.com/edilchristian/wildfire-map
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I have always been intrigued by Geography and all my friends know about my love for Maps. So when I found the maps library in React, and the Google Maps API, I wanted to do something creative with it. One of my friends is studying in the West Coast and she was describing a wildfire incident that happened near her city. This inspired me to create a React App which displays the wildfire incidents across America and other countries too. I fetched the wildfire data from NASA EONET API and used Iconify library to visualize the fires using emotiocons. And then used Vercel to deploy the web-app. Also, thanks to Brad Traversy for ideas and design for this webapp.
 
-## Available Scripts
+P.S: A pop up box appears when loading the webapp, saying "This page can't load Google Maps correctly" because Google Maps is no longer free and hence the thumbnails appear all across the map. Just press "OK". 
 
-In the project directory, you can run:
+Technologies used:
+- React
+- JavaScript
+- HTML
+- CSS
+- NASA EONET API
+- Google Maps API
+- Iconify
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+How to Use:
+Open wildfire-map-react.vercel.app and press "OK" for the pop up box. Then click on any red fire icon and a box with the information regarding that wildfire will be seen.
